@@ -40,3 +40,7 @@ keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
 -- telescope
 keymap.set("n", "<leader>ff", "<cmd>Telescope find_files<CR>")
 keymap.set("n", "<leader>fs", "<cmd>Telescope live_grep<CR>")
+
+-- lsp
+keymap.set("n", "K", vim.lsp.buf.hover, {})
+keymap.set("n", "<leader>fr", require("telescope.builtin").lsp_references, {})
