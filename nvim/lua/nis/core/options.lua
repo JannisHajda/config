@@ -25,7 +25,7 @@ opt.splitbelow = true
 opt.splitright = true
 
 -- clipboard
-opt.clipboard = 'unnamedplus'
+opt.clipboard = 'unnamed'
 
 -- backspace
 opt.backspace = 'indent,eol,start'
